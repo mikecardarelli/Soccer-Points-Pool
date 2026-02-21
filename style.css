@@ -1,0 +1,76 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@font-face {
+  font-family: Monoton;
+  src: url(Monoton-Regular.ttf);
+}
+
+@font-face {
+  font-family: Bungee-Outline;
+  src: url(BungeeOutline-Regular.ttf);
+}
+
+@font-face {
+  font-family: Bungee-Inline;
+  src: url(BungeeInline-Regular.ttf);
+}
+
+@font-face {
+  font-family: Bungee-Shade;
+  src: url(BungeeShade-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: white;
+  color: green;
+  text-align: left;
+  margin: auto 24px;
+}
+
+p {
+  font-family: helvetica, arial;
+  font-size: 1em;
+  margin-bottom: 16px; 
+  }
+
+h1 {
+  font-family: Bungee-Shade, monospace;
+  font-size: 6em;
+  margin-bottom: 0px;
+  }
+  
+h2 {
+  font-family: Bungee-Shade, arial;
+  font-size: 4em;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-family: helvetica, arial;
+  font-size: 1.5em;
+  margin-bottom: 8px;
+  }
+
+li {
+  font-family: helvetica, arial;
+  font-size: 1em;
+  margin-bottom: 16px;
+  }
+
+hr {
+  border: 3px solid green;
+  }
+  
+footer {
+  font-family: helvetica, arial;
+  text-align: center;
+  color: green;
+  margin: 24px 24px;
+}
